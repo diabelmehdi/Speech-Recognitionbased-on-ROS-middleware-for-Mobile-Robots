@@ -4,7 +4,10 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
+const db = require("./models");
+
 const handle = require("./handlers");
+const authentication = require("./authentication");
 const app = express();
 // we want to hide our Port
 const port = process.env.PORT;
@@ -15,6 +18,7 @@ app.use(bodyParser.json());
 app.get("/", (req, res) => {
   res.json({ hello: "World" });
 });
+app.use("/api/auth", authentication.auth);
 app.use(handle.notFound);
 
 app.use(handle.errors);

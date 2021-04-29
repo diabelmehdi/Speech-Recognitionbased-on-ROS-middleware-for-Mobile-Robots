@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react';
-import { connect } from 'react-redux';
+import React, { Fragment } from "react";
+import { connect } from "react-redux";
 
 const ErrorMessage = ({ error }) => (
   <Fragment>
@@ -7,4 +7,4 @@ const ErrorMessage = ({ error }) => (
   </Fragment>
 );
 
-export default connect(store => ({ error: store.error }))(ErrorMessage);
+export default connect((store) => ({ error: store.error }))(ErrorMessage);

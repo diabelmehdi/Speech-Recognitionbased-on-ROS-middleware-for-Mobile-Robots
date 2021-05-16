@@ -1,0 +1,8 @@
+prefix=/home/diab/turtlebot/devel
+
+Name: create_dashboard
+Description: Description of create_dashboard
+Version: 2.3.1
+Cflags: 
+Libs: -L/home/diab/turtlebot/devel/lib 
+Requires: 

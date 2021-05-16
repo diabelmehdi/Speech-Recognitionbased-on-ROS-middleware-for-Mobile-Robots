@@ -1,0 +1,8 @@
+prefix=/home/diab/turtlebot/install
+
+Name: create_description
+Description: Description of create_description
+Version: 2.3.1
+Cflags: 
+Libs: -L/home/diab/turtlebot/install/lib 
+Requires: urdf xacro

@@ -1,0 +1,8 @@
+prefix=/home/diab/turtlebot/devel
+
+Name: turtlebot_bringup
+Description: Description of turtlebot_bringup
+Version: 2.3.14
+Cflags: 
+Libs: -L/home/diab/turtlebot/devel/lib 
+Requires: 

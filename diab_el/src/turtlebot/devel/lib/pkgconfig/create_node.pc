@@ -1,0 +1,8 @@
+prefix=/home/diab/turtlebot/devel
+
+Name: create_node
+Description: Description of create_node
+Version: 2.3.1
+Cflags: -I/home/diab/turtlebot/devel/include
+Libs: -L/home/diab/turtlebot/devel/lib 
+Requires: diagnostic_msgs geometry_msgs message_runtime nav_msgs

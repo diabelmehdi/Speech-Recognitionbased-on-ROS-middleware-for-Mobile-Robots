@@ -1,0 +1,8 @@
+prefix=/home/diab/turtlebot/devel
+
+Name: turtlebot_rviz_launchers
+Description: Description of turtlebot_rviz_launchers
+Version: 2.3.1
+Cflags: 
+Libs: -L/home/diab/turtlebot/devel/lib 
+Requires: 

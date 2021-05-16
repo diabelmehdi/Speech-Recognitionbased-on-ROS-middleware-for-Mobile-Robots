@@ -1,0 +1,19 @@
+<!-- Remove the commented parts -->
+<package>
+ <name>diab_el</name>
+ <version>0.0.1</version>
+ <description>diab_el</description>
+ <maintainer email="ros@todo.todo">ros</maintainer>
+ <license>TODO</license>
+ <buildtool_depend>catkin</buildtool_depend>
+ <build_depend>pocketsphinx</build_depend>
+ <build_depend>roscpp</build_depend>
+ <build_depend>rospy</build_depend>
+ <build_depend>sound_play</build_depend>
+ <build_depend>std_msgs</build_depend>
+ <run_depend>pocketsphinx</run_depend>
+ <run_depend>roscpp</run_depend>
+ <run_depend>rospy</run_depend>
+ <run_depend>sound_play</run_depend>
+ <run_depend>std_msgs</run_depend>
+</package>

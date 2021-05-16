@@ -1,0 +1,8 @@
+prefix=/home/diab/turtlebot/install
+
+Name: turtlebot_capabilities
+Description: Description of turtlebot_capabilities
+Version: 2.3.14
+Cflags: 
+Libs: -L/home/diab/turtlebot/install/lib 
+Requires: 
